@@ -1,0 +1,1 @@
+## In this directory goes separate pages

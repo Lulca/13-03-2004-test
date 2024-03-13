@@ -13,11 +13,11 @@ export function Home() {
       <h2>Contact form</h2>
       <IdentityForm onSubmit={onContactFormSubmit}>
         {register => (
-            <Select {...register("gender")}>
-              <option value="female">female</option>
-              <option value="male">male</option>
-              <option value="other">other</option>
-            </Select>
+          <Select {...register("gender")}>
+            <option value="female">female</option>
+            <option value="male">male</option>
+            <option value="other">other</option>
+          </Select>
         )}
       </IdentityForm>
     </>
